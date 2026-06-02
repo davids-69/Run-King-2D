@@ -5,6 +5,7 @@ public class Movment : MonoBehaviour
     public int direction;
     private Vector3 movement;
     private Rigidbody2D rb;
+    public Sprite[] sprites;
 
 
     void Start()
@@ -22,5 +23,13 @@ public class Movment : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         direction = direction * -1;
+        if (direction == 1)
+        {
+            GetComponent<SpriteRenderer>().sprite = sprites[1];
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().sprite = sprites[0];
+        }
     }
 }

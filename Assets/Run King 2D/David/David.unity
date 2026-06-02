@@ -295,6 +295,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: 3
+  sprites:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &954201840
 GameObject:
   m_ObjectHideFlags: 0
