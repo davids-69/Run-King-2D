@@ -294,7 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4238bdbd501256a4aa3951e0aa408dd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: 3
+  direction: 5
   sprites:
   - {fileID: 0}
   - {fileID: 0}
